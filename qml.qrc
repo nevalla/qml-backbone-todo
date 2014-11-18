@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/main.qml</file>
+        <file>qml/TodoRow.qml</file>
+        <file>qml/TextInputField.qml</file>
+        <file>qml/ImageButton.qml</file>
+        <file>js/app.js</file>
+        <file>js/backbone.js</file>
+        <file>js/underscore.js</file>
+        <file>js/zepto.js</file>
+        <file>images/loading.png</file>
+        <file>images/close.png</file>
+        <file>images/accept.png</file>
+        <file>images/qt-logo.png</file>
+    </qresource>
+</RCC>
