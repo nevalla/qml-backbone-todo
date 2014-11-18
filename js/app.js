@@ -3,7 +3,7 @@
 Qt.include("backbone.js")
 
 $.ajaxSettings["headers"] = {
-        "Enginio-Backend-Id": "533d48785a3d8b7d1701291f"
+        "Enginio-Backend-Id": "YOUR EDS BACKEND ID"
     }
 
 var baseUrl = "https://api.engin.io/v1";
@@ -32,10 +32,5 @@ function addTodo(text) {
 function getTodos(options) {
     todos.fetch(options);
 }
-
-function completeTodo(options) {
-    todos.fetch(options);
-}
-
 
 

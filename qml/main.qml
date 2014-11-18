@@ -121,7 +121,7 @@ ApplicationWindow {
                 anchors.verticalCenter: parent.verticalCenter
                 height: parent.height - 10
                 width: parent.width * 0.8
-                onAccepted: { App.addTodo(textinput.text); text = '' }
+                onAccepted: { App.addTodo(textinput.text); textinput.text = '' }
             }
 
             Button {
